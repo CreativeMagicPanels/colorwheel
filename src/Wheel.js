@@ -31,7 +31,7 @@ const sLToTriangleCoords = ([s, l]) => {
   const l0 = (white + black) * L;
   const Y = white * L - l0 / 2;
   const x0 = l0 * 202.5 / L;
-  return [135 - x0, Y];
+  return [135 - x0, Y]; 
 };
 
 const Container = styled.div({

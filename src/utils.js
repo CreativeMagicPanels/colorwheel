@@ -31,7 +31,7 @@ export function createAnnulus(canvas) {
   ctx.arc(half, half, radius, 0, 2 * PI, false);
   ctx.lineWidth = 30;
   ctx.stroke();
-  ctx.restore();
+  ctx.restore(); 
 }
 
 export function createTriangle(canvas) {
